@@ -1,0 +1,24 @@
+{
+  "name": "leads-django",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ryaaanandrew/Django-REST.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ryaaanandrew/Django-REST/issues"
+  },
+  "homepage": "https://github.com/ryaaanandrew/Django-REST#readme",
+  "dependencies": {
+    "webpack": "^4.39.3",
+    "webpack-cli": "^3.3.7"
+  }
+}
