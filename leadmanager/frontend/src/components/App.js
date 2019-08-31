@@ -1,9 +1,13 @@
 import React from 'react';
-import Navigation from './layout/Navigation'
+import Navigation from './layout/Navigation';
+import Leads from './leads/Leads';
 
 const App = () => {
   return(
-    <Navigation />
+    <>
+      <Navigation />
+      <Leads />
+    </>
   );
 };  
 
