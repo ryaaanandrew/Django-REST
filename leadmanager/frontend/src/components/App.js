@@ -1,12 +1,13 @@
 import React from 'react';
 import Navigation from './layout/Navigation';
-import Leads from './leads/Leads';
+import Dashboard from './leads/Dashboard'
 
 const App = () => {
   return(
     <>
       <Navigation />
-      <Leads />
+      <h1>asdasd</h1>
+      <Dashboard />
     </>
   );
 };  
