@@ -5,7 +5,9 @@ import { getLeads, deleteLead } from '../../actions/leads';
 
 const Leads = props => {
   Leads.propTypes = {
-    leads: PropTypes.array.isRequired
+    leads: PropTypes.array.isRequired,
+    getLeads: PropTypes.func.isRequired,
+    deleteLead: PropTypes.func.isRequired
   };
   useEffect(() => {
     props.getLeads();
